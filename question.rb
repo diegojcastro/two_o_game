@@ -1,9 +1,9 @@
 class Question
   attr_reader :prompt, :answer
 
-  def initialize(val1, val2)
-    @prompt = "What is #{val1} plus #{val2}? "
-    @answer = val1 + val2
+  def initialize(nums)
+    @prompt = "What is #{nums[0]} plus #{nums[1]}? "
+    @answer = nums[0] + nums[1]
   end
 
 end
